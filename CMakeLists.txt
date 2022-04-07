@@ -118,7 +118,7 @@ IF (BUILD_TEST)
 
 endif()
 
-# install (TARGETS ModernRoboticsCpp
-#         ARCHIVE DESTINATION lib
-#         LIBRARY DESTINATION lib
-#         RUNTIME DESTINATION bin)
+install (TARGETS ModernRoboticsCpp
+        ARCHIVE DESTINATION lib
+        LIBRARY DESTINATION lib
+        RUNTIME DESTINATION bin)
